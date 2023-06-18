@@ -218,6 +218,14 @@ body {
     margin-bottom: 10px;
 }
 
+.experiences__company-project-tech-used {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 350;
+}
+
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
