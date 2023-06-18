@@ -254,6 +254,11 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info__education-achievements {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
 .additional-info__languages {
     margin-bottom: 20px;
 }
