@@ -280,3 +280,14 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.hobbies-header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hobbies__list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
