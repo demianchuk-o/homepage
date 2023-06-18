@@ -168,6 +168,12 @@ body {
     text-align: justify;
 }
 
+.skills__list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -212,6 +218,14 @@ body {
     margin-bottom: 10px;
 }
 
+.experiences__company-project-tech-used {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 350;
+}
+
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
@@ -248,6 +262,11 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info__education-achievements {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
 .additional-info__languages {
     margin-bottom: 20px;
 }
@@ -260,4 +279,15 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.hobbies-header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hobbies__list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
 }
